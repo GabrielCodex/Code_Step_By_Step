@@ -3,7 +3,7 @@
 
 ### Step 1
 
-In your viewController add the delegate to the class, CLLocationManagerDelegate
+In your viewController add the delegate to the class, CLLocationManagerDelegate. ALSO IMPORT CoreLocation
 ```swift
 class DemoLocationViewController: UIViewController, CLLocationManagerDelegate {
 ```
