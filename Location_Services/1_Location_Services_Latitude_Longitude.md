@@ -1,5 +1,6 @@
 # Location Services, latitude and longitude
 
+## Gabriel remember the permission button. Refer to the complete project to see it. Remember to add it here
 
 ### Step 1
 a. In your viewController add the delegate to the class, CLLocationManagerDelegate.
