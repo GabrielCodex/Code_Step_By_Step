@@ -2,10 +2,15 @@
 
 
 ### Step 1
-
-In your viewController add the delegate to the class, CLLocationManagerDelegate. ALSO IMPORT CoreLocation
-
-in the Plist rmember to add, "Privacy - Location Always Usage Description" and add a description
+a. In your viewController add the delegate to the class, CLLocationManagerDelegate.
+```swift
+CLLocationManagerDelegate
+```
+b. Import CoreLocation
+```swift
+Import CoreLocation
+```
+c. In the Plist rmember to add, "Privacy - Location Always Usage Description" and add a description
 ```swift
 class DemoLocationViewController: UIViewController, CLLocationManagerDelegate {
 ```
@@ -66,6 +71,8 @@ func locationManager(_ manager: CLLocationManager, didUpdateLocations locations:
 ```
 
 ### Step 6 
+
+I need this for error handling
 ```swift
 
 func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
@@ -75,6 +82,7 @@ func locationManager(_ manager: CLLocationManager, didFailWithError error: Error
 
 ```
 ### Step 7 
+When the user presses the button for location services to begin 
 ``` swift
 
 // MARK: - Actions
