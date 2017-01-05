@@ -1,9 +1,11 @@
-# Location Services, Step by Step
+# Location Services, latitude and longitude
 
 
 ### Step 1
 
 In your viewController add the delegate to the class, CLLocationManagerDelegate. ALSO IMPORT CoreLocation
+
+in the Plist rmember to add, "Privacy - Location Always Usage Description" and add a description
 ```swift
 class DemoLocationViewController: UIViewController, CLLocationManagerDelegate {
 ```
