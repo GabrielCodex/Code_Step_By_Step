@@ -4,16 +4,14 @@
 ### Step 1
 a. In your viewController add the delegate to the class, CLLocationManagerDelegate.
 ```swift
-CLLocationManagerDelegate
+class DemoLocationViewController: UIViewController, CLLocationManagerDelegate {
 ```
 b. Import CoreLocation
 ```swift
 Import CoreLocation
 ```
 c. In the Plist rmember to add, "Privacy - Location Always Usage Description" and add a description
-```swift
-class DemoLocationViewController: UIViewController, CLLocationManagerDelegate {
-```
+
 ### Step 2
 Create a location manager to determine how accurate the gps setting should be. Without it would be constantly updating and drain the battery.
 
