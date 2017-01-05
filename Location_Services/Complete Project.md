@@ -1,5 +1,7 @@
 
 ### View Controller 
+# Remember to change Lazy Var to internal var 
+
 ```swift
 import UIKit
 import CoreLocation
