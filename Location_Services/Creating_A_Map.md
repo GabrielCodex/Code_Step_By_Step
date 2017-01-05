@@ -1,5 +1,12 @@
+# Map
 
-### Step 5 
+
+### Step 1 
+
+Import MapKit
+
+### Step 2 
+
 Need to create a map. Below code is done programmatically
 
 ```swift 
@@ -13,7 +20,7 @@ Need to create a map. Below code is done programmatically
 
 ```
 
-### Step 6 
+### Step 3
 Add the mapView to the view
 
 ```swift
@@ -37,7 +44,7 @@ func setupViewHierarchy() {
 
 ```
 
-### Step 7 
+### Step 4 
 Add constraints to the mapView
 
 ```swift
@@ -47,7 +54,7 @@ Add constraints to the mapView
             longLabel,
             permissionButton,
             geocodeLocationLabel,
-     */STEP 5/*  mapView,
+            mapView,
             
             ].map{ $0.translatesAutoresizingMaskIntoConstraints = false }
         
@@ -66,7 +73,7 @@ Add constraints to the mapView
             permissionButton.bottomAnchor.constraint(equalTo: self.bottomLayoutGuide.topAnchor, constant: -16.0),
             permissionButton.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),
            
-           STEP 5 // map 
+            // map 
             mapView.topAnchor.constraint(equalTo: geocodeLocationLabel.bottomAnchor, constant: 16.0),
             mapView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor),
             mapView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor),
