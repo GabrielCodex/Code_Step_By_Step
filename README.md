@@ -45,8 +45,9 @@ locationManager.delegate = self
             locationManager.requestAlwaysAuthorization()
         }
     }
-    ```
+ ```
 ### Step 5 
+
 The format used in self.latLabel allows you to select how many decimal place by changing the number.
 ```swift
 
