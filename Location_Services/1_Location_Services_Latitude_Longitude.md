@@ -17,7 +17,7 @@ class DemoLocationViewController: UIViewController, CLLocationManagerDelegate {
 c. In the Plist rmember to add, "Privacy - Location Always Usage Description" and add a description
 
 ### Step 2
-Create a location manager to determine how accurate the gps setting should be. Without it would be constantly updating and drain the battery.
+Create a location manager to determine how accurate the gps setting should be. Without it would be constantly updating and drain the battery. Don't put it in ViewDidload, above it is fine
 
 ```swift
 let locationManager: CLLocationManager = {
