@@ -34,7 +34,7 @@ func setupViewHierarchy() {
         // button
         self.view.addSubview(permissionButton)
         
-        STEP 4 // map
+        STEP 3 // map
         self.view.addSubview(mapView)
         
         
