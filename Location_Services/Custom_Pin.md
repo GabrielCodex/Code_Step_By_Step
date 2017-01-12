@@ -2,7 +2,7 @@
 
 source: http://stackoverflow.com/questions/9814988/mkmapview-instead-of-annotation-pin-a-custom-view
 
-swift ```
+```swift
 
 func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
     // Don't want to show a custom image if the annotation is the user's location.
